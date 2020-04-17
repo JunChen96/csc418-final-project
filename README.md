@@ -2,11 +2,10 @@
 
 ## My information
 Jun Chen
-1002073196
-LEC 0101 
 
-This assignment is open-ended and creative. The task is simply to make a
-computer graphics image, video, animation, or interactive experience.
+1002073196
+
+LEC 0101
 
 ## Ground rules
 
