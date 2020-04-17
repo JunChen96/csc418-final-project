@@ -1,0 +1,153 @@
+ {
+  "camera": {
+    "type": "perspective",
+    "focal_length": 3,
+    "eye": [0,0,5],
+    "up": [0,1,0],
+    "look": [0,0,-1],
+    "height": 1,
+    "width": 1.7777777778
+  },
+  "materials": [
+    {
+      "name": "pinky1 metal",
+      "ka": [0.894118,0.101961,0.109804],
+      "kd": [0.894118,0.101961,0.109804],
+      "ks": [0.894118,0.101961,0.109804],
+      "km": [0.894118,0.101961,0.109804],
+      "phong_exponent": 2000
+    },
+    {
+      "name": "pinky2 metal",
+      "ka": [0.215686,0.494118,0.721569],
+      "kd": [0.215686,0.494118,0.721569],
+      "ks": [0.215686,0.494118,0.721569],
+      "km": [0.215686,0.494118,0.721569],
+      "phong_exponent": 2000
+    },
+    {
+      "name": "pinky3 metal",
+      "ka": [0.301961,0.686275,0.290196],
+      "kd": [0.301961,0.686275,0.290196],
+      "ks": [0.301961,0.686275,0.290196],
+      "km": [0.301961,0.686275,0.290196],
+      "phong_exponent": 2000
+    },
+    {
+      "name": "pinky4 metal",
+      "ka": [0.596078,0.305882,0.639216],
+      "kd": [0.596078,0.305882,0.639216],
+      "ks": [0.596078,0.305882,0.639216],
+      "km": [0.596078,0.305882,0.639216],
+      "phong_exponent": 2000
+    },
+    {
+      "name": "red metal",
+      "ka": [0.894118,0.101961,0.109804],
+      "kd": [0.894118,0.101961,0.109804],
+      "ks": [0.2,0.2,0.2],
+      "km": [0.1,0.1,0.1],
+      "phong_exponent": 500
+    },
+    {
+      "name": "blue metal",
+      "ka": [0.215686,0.494118,0.721569],
+      "kd": [0.215686,0.494118,0.721569],
+      "ks": [0.2,0.2,0.2],
+      "km": [0.1,0.1,0.1],
+      "phong_exponent": 500
+    },
+    {
+      "name": "green metal",
+      "ka": [0.301961,0.686275,0.290196],
+      "kd": [0.301961,0.686275,0.290196],
+      "ks": [0.2,0.2,0.2],
+      "km": [0.1,0.1,0.1],
+      "phong_exponent": 500
+    },
+    {
+      "name": "orange metal",
+      "ka": [1,0.49804,0],
+      "kd": [1,0.49804,0],
+      "ks": [0.2,0.2,0.2],
+      "km": [0.1,0.1,0.1],
+      "phong_exponent": 500
+    },
+    {
+      "name": "purple metal",
+      "ka": [0.596078,0.305882,0.639216],
+      "kd": [0.596078,0.305882,0.639216],
+      "ks": [0.2,0.2,0.2],
+      "km": [0.1,0.1,0.1],
+      "phong_exponent": 500
+    }
+  ],
+  "lights":[
+    {
+      "type": "point",
+      "color": [1,1,3],
+      "position": [0,0,1]
+    },
+    {
+      "type": "point",
+      "color": [0.2,0.2,0.2],
+      "position": [0,0,0]
+    }
+  ],
+  "objects": [
+    {
+      "type": "sphere",
+      "material": "pinky1 metal",
+      "radius": 0.15,
+      "center": [-0.15,-0.15,0]
+    },
+    {
+      "type": "sphere",
+      "material": "pinky2 metal",
+      "radius": 0.15,
+      "center": [0.15,0.15,0]
+    },
+    {
+      "type": "sphere",
+      "material": "pinky3 metal",
+      "radius": 0.3,
+      "center": [0.3,-0.3,0]
+    },
+    {
+      "type": "sphere",
+      "material": "pinky4 metal",
+      "radius": 0.3,
+      "center": [-0.3,0.3,0]
+    },
+    {
+      "type": "plane",
+      "material": "blue metal",
+      "point": [-1,0,0],
+      "normal": [1,0,0]
+    },
+    {
+      "type": "plane",
+      "material": "orange metal",
+      "point": [0,0,-1],
+      "normal": [0,0,1]
+    },
+    {
+      "type": "plane",
+      "material": "purple metal",
+      "point": [0,1,0],
+      "normal": [0,-1,0]
+    },
+    {
+      "type": "plane",
+      "material": "green metal",
+      "point": [1,0,0],
+      "normal": [-1,0,0]
+    },
+    {
+      "material": "red metal",
+      "type": "plane",
+      "point": [0,-1,0],
+      "normal": [0,1,0]
+    }
+  ]
+}
