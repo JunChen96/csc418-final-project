@@ -7,47 +7,10 @@ Jun Chen
 
 LEC 0101
 
-## Ground rules
+## Assets
 
-You may use external code, models or other assets so long as you acknowledge
-your sources. Keep in mind your entry will be judged according to the _delta_ of
-the part you implemented over any existing code/assets.
-
-You are encouraged (but not required) to start with one of the existing
-assignments and expand its functionality.
-
-Ultimately, your code needs to produce a visual artifact: image, video animation
-or screen recording of an interaction.
-
-## Past winners
-
-Gavin Barill and Trevor Anderson's "Snowglobe", Winter 2016.
-
-![](images/gavin-barill-snowglobe.jpg)
-
-Muhammed Anwar's "Stanford Dragon", Fall 2016
-
-![](images/muhammed-anwar-dragon.jpg)
-
-Ryan Williams' "Toys", Winter 2016
-
-![](images/ryan-williams-ball-teddy-bear.jpg)
-
-David La's "Newton's Cradle", Winter 2016
-
-![](images/david-la-newtons-cradle.jpg)
-
-Monica Iulia Leonte's "City", Winter 2017
-
-![](images/monica-leonte-city.jpg)
-
-Jiahui Cai's "Table", Winter 2017
-
-![](images/jiahui-cai-table.jpg)
-
-Darren Moore's "Bounce", Winter 2017
-
-![](images/darren-moore-bounce.gif)
+batman.stl that I found online
+link: 
 
 
 ## Tasks
